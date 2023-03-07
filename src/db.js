@@ -8,10 +8,10 @@ import {
 
 export const slqConfig = {
   user: DB_USER,
-  password: 'mypassword!#',
+  password: DB_PWD,
   database: DB_NAME,
   server: DB_HOST,
-  port: 1433,
+  port: DB_PORT,
   pool: {
     max: 10,
     min: 0,
